@@ -1,8 +1,9 @@
 import React from 'react'
+import '../style/Experience.css'
 
 const Experience = () => {
   return (
-    <div>
+    <div className='Exp-Container'>
       Experience
     </div>
   )

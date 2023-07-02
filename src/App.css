@@ -1,0 +1,13 @@
+.App{
+    height: 100vh;
+    background-color: plum;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    background: url("./assets/bg.png");
+    color: white;
+}

@@ -1,0 +1,5 @@
+.Contact-Container{
+    height: 100vh;
+      
+    scroll-snap-align: center;
+}
