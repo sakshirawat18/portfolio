@@ -1,5 +1,82 @@
-.Hero-Container{
+.Main {
     height: 100vh;
-    
     scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Hero-Container {
+    height: 100vh;
+    scroll-snap-align: center;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Hero-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title {
+    font-size: 74px;
+}
+
+.subtitle {
+    color: pink;
+}
+
+.subtitle>img {
+    height: 5px;
+}
+
+.subtitle>span {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.description {
+    font-size: 24px;
+    color: palevioletred;
+}
+
+.btn {
+    background-color: pink;
+    color: white;
+    font-weight: 500;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Hero-right {
+    flex: 3;
+    position: relative;
+}
+
+.Hero-right>img {
+    width: 800px;
+    height: 600px;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: animate 2s infinite ease alternate;
+}
+
+@keyframes animate {
+    to {
+        transform: translateY(20px);
+    }
 }

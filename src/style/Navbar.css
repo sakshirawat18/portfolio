@@ -1,0 +1,51 @@
+
+
+.Nav-Container {
+    display: flex;
+    width: 60%;
+
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.left-nav>img{
+    width: 50px;
+}
+
+.options {
+    list-style: none;
+    display: flex;
+    gap: 20px;  
+}
+
+.options>li{
+    cursor: pointer;
+}
+
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 15px;
+}
+
+.right-nav>img{
+    width: 30px;
+}
+
+.hire{
+    width: 100px;
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

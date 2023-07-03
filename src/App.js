@@ -8,10 +8,10 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div className='App'>
+      <Hero/>
       <About/>
       <Contact/>
       <Experience/>
-      <Hero/>
       <Projects/>
     </div>
   );
