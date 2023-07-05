@@ -1,0 +1,62 @@
+.main-skill {
+    height: 100vh;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.Skill-Container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Skill-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.Skills {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-items {
+    font-size: 90px;
+    font-weight: bold;
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    position: relative;
+}
+
+.list-items::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: pink;
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.list-items:hover::after {
+    animation: moveText 0.5s linear both;
+}
+
+@keyframes moveText {
+    to {
+        width: 100%;
+    }
+}
+
+.Skill-right {
+    flex: 1;
+}

@@ -1,5 +1,45 @@
-.About-Container{
+.Section {
     height: 100vh;
-    
     scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.About-Container {
+    height: 100vh;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.About-left {
+    flex: 1;
+}
+
+.About-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.heading {
+    font-size: 74px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.intro {
+    color: pink;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 0;
+}
+
+.info {
+    color: lightpink;
+    font-size: 18px;
 }

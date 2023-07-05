@@ -1,7 +1,7 @@
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
-import Experience from './components/Experience';
+import Skill from './components/Skill';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 
@@ -10,9 +10,9 @@ function App() {
     <div className='App'>
       <Hero/>
       <About/>
-      <Contact/>
-      <Experience/>
+      <Skill/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }
