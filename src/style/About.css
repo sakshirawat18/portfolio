@@ -5,18 +5,18 @@
     justify-content: center;
 }
 
-.About-Container {
+.Container {
     height: 100vh;
     width: 800px;
     display: flex;
     justify-content: center;
 }
 
-.About-left {
+.C-left {
     flex: 1;
 }
 
-.About-right {
+.C-right {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@
 .intro {
     color: pink;
     display: flex;
-    align-items: center;
+    align-items: center; 
     gap: 2px;
     margin: 0;
 }

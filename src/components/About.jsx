@@ -4,13 +4,13 @@ import '../style/About.css'
 const About = () => {
   return (
     <div className="Section">
-      <div className="About-Container">
-        <div className="About-left">
+      <div className="Container">
+        <div className="C-left">
           {/* 3d model */}
 
         </div>
 
-        <div className="About-right">
+        <div className="C-right">
         <p className='intro'>INTRODUCTION</p>
           <p className='heading'>Overview.</p>
           <p className='info'>
